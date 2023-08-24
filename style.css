@@ -15,6 +15,7 @@ h1{ font-size: 60px;
     border-radius: 50px;
     position: relative; 
     float:left;
+    animation: float 5s infinite
 }
 .eye1{
     position: absolute;
@@ -118,4 +119,11 @@ p{
         top: 65px;
     }
 }
-
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(35px);
+    }
+}

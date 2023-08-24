@@ -97,7 +97,7 @@ h1{ font-size: 60px;
     margin: auto;
 }
 p{
-    text-align: justify;
+    text-align: center;
     padding:30px;
 }
 @keyframes wink {

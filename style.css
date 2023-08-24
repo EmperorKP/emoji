@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFE0;
+
+}
+h1{ font-size: 60px;
+    text-align: center;
+}
+.emoji-face{
+    width: 100px;
+    height: 100px;
+    background-color:#F2DD68;
+    margin: 15px;
+    border-radius: 50px;
+    position: relative; 
+    float:left;
+}
+.eye1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color:#995710;
+    top: 21px;
+    left: 25px;
+    border-radius: 50px;
+    animation: wink 2s infinite;
+}
+.eye2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color:#995710;
+    top: 20px;
+    left: 60px;
+    border-radius: 50px;
+    animation: wink 2s infinite;
+}
+.mouth{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color:#995710;
+    top: 60px;
+    left: 20px;
+    border-radius: 0 0 50px 50px;
+    overflow: hidden;
+    animation: moveMouth 2s infinite;
+}
+.tongue{
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    background-color:#E25D5D;
+    top: 15px;
+    left: 10px;
+    border-radius:40px 40px 0 0;
+   
+    
+
+}
+.mouth-speechless{
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color:#995710;
+    top: 60px;
+    left: 23px;
+    border-radius: 0 0 0 0;
+    animation: moveMouth 2s infinite;
+
+}
+.mouth-shock{
+    position: absolute;
+    width: 20px;
+    height: 23px;
+    background-color:#995710;
+    top: 47px;
+    left: 40px;
+    border-radius: 15px;
+    animation: moveMouth 2s infinite;
+}
+
+.write-up{
+    position:absolute;
+    top: 300px;
+    width: 60%;
+    background-color: #D8AA2B;
+    border-radius: 10px;
+    margin: auto;
+    left: 315px;
+    text-align: center;
+}
+.wrapper{
+    width:max-content;
+    
+    margin: auto;
+}
+p{
+    text-align: justify;
+    padding:30px;
+}
+@keyframes wink {
+    0%, 100% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(0);
+    }
+}
+
+@keyframes moveMouth {
+    0%, 100% {
+        top: 60px;
+    }
+    50% {
+        top: 65px;
+    }
+}
+
